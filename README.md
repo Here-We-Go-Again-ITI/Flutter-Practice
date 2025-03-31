@@ -91,12 +91,6 @@ Resuelve cualquier problema que muestre el comando anterior.
      - "Desarrollo de escritorio con C++"
      - "Desarrollo de la plataforma universal de Windows"
 
-Una vez resueltos los problemas anteriores:
-```bash
-C:\flutter\bin\flutter.bat create mi_app_imagenes
-cd mi_app_imagenes
-```
-
 ## Crear Nuevo Proyecto
 
 ```bash
@@ -142,6 +136,13 @@ Es un widget que mejora el manejo de imágenes de red:
 ## Ejemplo Práctico
 
 1. Crear archivo `lib/main.dart`:
+
+
+# Armar la pantalla inicial
+
+
+- Reemplazar el código en `lib/main.dart` por el siguiente:
+
 
 ```dart
 import 'package:flutter/material.dart';
@@ -193,6 +194,14 @@ class MyHomePage extends StatelessWidget {
     },
   ];
 
+
+
+
+  # Armar el Tab Controller
+
+  - Copiar y pegar el siguiente código dentro de `lib/main.dart` dentro de `MyHomePage`:
+
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -210,6 +219,12 @@ class MyHomePage extends StatelessWidget {
         ),
         body: TabBarView(
           children: [
+
+
+            # Ejemplo de ListView
+
+            - Copiar y pegar el siguiente código en lib/main.dart dentro de MyHomePage:
+            
             // Ejemplo de ListView
             ListView.builder(
               padding: const EdgeInsets.all(8),
@@ -252,6 +267,12 @@ class MyHomePage extends StatelessWidget {
               },
             ),
 
+
+          # Ejemplo de GridView
+
+          - Copiar y pegar el siguiente código en lib/main.dart dentro de MyHomePage:
+
+
             // Ejemplo de GridView
             GridView.builder(
               padding: const EdgeInsets.all(8),
@@ -287,6 +308,11 @@ class MyHomePage extends StatelessWidget {
                 );
               },
             ),
+
+
+          # Ejemplo de List Title
+
+          - Copiar y pegar el siguiente código en lib/main.dart dentro de MyHomePage:
 
             // Ejemplo de ListTile
             ListView.separated(
