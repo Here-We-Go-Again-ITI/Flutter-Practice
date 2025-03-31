@@ -195,10 +195,12 @@ class MyHomePage extends StatelessWidget {
   ];
 
 
+```
 
 
   # Armar el Tab Controller
 
+```dart
   - Copiar y pegar el siguiente código dentro de `lib/main.dart` dentro de `MyHomePage`:
 
 
@@ -267,8 +269,10 @@ class MyHomePage extends StatelessWidget {
               },
             ),
 
-
-          # Ejemplo de GridView
+```
+ # Ejemplo de GridView
+```dart
+         
 
           - Copiar y pegar el siguiente código en lib/main.dart dentro de MyHomePage:
 
@@ -308,9 +312,12 @@ class MyHomePage extends StatelessWidget {
                 );
               },
             ),
+```
+# Ejemplo de List Title
 
+```dart
 
-          # Ejemplo de List Title
+          
 
           - Copiar y pegar el siguiente código en lib/main.dart dentro de MyHomePage:
 
@@ -347,7 +354,8 @@ class MyHomePage extends StatelessWidget {
 
 
 
-### Más fácil, copiar y pegar el código completo dentro de `lib/main.dart`:
+
+### Más fácil, copiar y pegar el código completo dentro de `lib/main.dart` xddd:
 
 ```dart
 import 'package:flutter/material.dart';
